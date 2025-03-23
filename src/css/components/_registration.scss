@@ -1,0 +1,45 @@
+@use "../abstracts/mixins" as mix;
+@use "../abstracts/variables" as var;
+
+
+
+h1 {
+    margin-bottom: 15px;
+    color: var.$text-color-primary;
+}
+
+.form-container {
+    margin-inline: 27%;
+}
+
+label {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: var.$text-color-primary;
+}
+
+.form-check-label{
+    margin: 0;
+}
+
+input, select, textarea{
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: var.$primary-color;
+    outline: none;
+}
+
+
+
+button:hover {
+    background-color:rgba(34, 132, 229, 0.936) ;
+}

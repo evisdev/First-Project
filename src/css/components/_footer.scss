@@ -1,0 +1,53 @@
+@use "../abstracts/mixins" as mix;
+@use "../abstracts/variables" as var;
+
+
+footer{
+    font-size: 14px;
+    color: var.$text-color-base;
+}
+
+footer a {
+    text-decoration: none;
+    color: var.$primary-color;
+    padding: 3px;
+}
+
+.social-links a:hover, .quick-links a:hover {
+    text-decoration: none;
+}
+
+.social-links li,
+.quick-links li {
+    display: inline;
+    list-style: none;  
+}
+
+.social-links i{
+    padding: 3px;
+}
+
+.quick-links a{
+    margin: auto;
+}
+
+.social-media p {
+    margin: 0;
+    padding: 0 150px 0 0;
+}
+
+.social-links li, .quick-links li {
+    margin: 0 5px; 
+}
+
+
+
+ 
+
+
+
+
+
+
+
+

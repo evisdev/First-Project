@@ -1,0 +1,35 @@
+@use "../abstracts/mixins" as mix;
+@use "../abstracts/variables" as var;
+
+
+
+
+  
+.container .card:hover {
+    transform: none; 
+    box-shadow: none;  
+}
+
+.container .card-body a {
+    text-decoration: none;
+}
+
+.container .card:hover .card-text{
+    color: var.$text-color-primary;
+  }
+  
+.container .card:hover h5{
+    color: var.$text-color-primary;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
